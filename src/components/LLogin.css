@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#anii
+{
+    background-image: url("F:\react_neo\project2\src\components\bgimg.json");
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    background-size: contain;
+    margin-top: 100px;
+    margin-left: 200px;
+    /* background-color: aqua; */
+    background-repeat: no-repeat;
+
+}
+#whole {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    margin-left: 350px ;
+}   
+#email,#pass
+{
+    border: 2px solid #ccc;
+    margin-bottom: 15px;
+    outline: none;
+    padding: 5px 10px;
+}
+#title
+{
+    position: absolute;
+    margin-top: 30px;
+    color: hsl(341, 100%, 49%);
+    top:0px;
+}
+#btns
+{
+    display: flex;
+    gap: 20px;
+}
+
+#signBtn,#CreateBtn
+{
+        margin-top: 20px;
+        background-color: hsl(341, 100%, 49%) ;
+        font-size: 20px;
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        padding: 5px 10px;
+        transition: background-color 0.3 ease-in-out;
+}
+.ip
+{
+    margin-top: 30px;
+}
+#signBtn:hover,#CreateBtn:hover
+{
+        background-color: hsl(341, 84%, 47%) ;
+}
+#ele
+{
+    position: relative;
+}
+#usericon
+{
+    position: absolute;
+    right: 20px;
+    bottom: 310px;
+    /* display: inline-block; */
+}
+#emailicon
+{
+    position: absolute;
+    right: 20px;
+    bottom:237px;
+    width: 20px;
+}
+#lockicon
+{
+    position: absolute;
+    bottom: 166px;
+    right:20px
+}
+#lockicon2
+{
+    position: absolute;
+    bottom: 95px;
+    right: 20px;
+    /* width: 20px; */
+}
